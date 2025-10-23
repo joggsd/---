@@ -49,7 +49,7 @@ class Ui_MainWindow(object):
 
         # 계산 버튼
         self.calculate_button = QtWidgets.QPushButton(self.centralwidget)
-        self.calculate_button.setText("계산")
+        self.calculate_button.setText("add")
         self.calculate_button.setObjectName("calculate_button")
         self.horizontalLayout.addWidget(self.calculate_button)
 
