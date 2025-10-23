@@ -43,7 +43,7 @@ class Ui_MainWindow(object):
 
         # 결과 표시 라벨
         self.result_label = QtWidgets.QLabel(self.centralwidget)
-        self.result_label.setText("결과")
+        self.result_label.setText("result")
         self.result_label.setObjectName("result_label")
         self.horizontalLayout.addWidget(self.result_label)
 
